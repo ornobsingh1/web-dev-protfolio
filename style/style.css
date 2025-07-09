@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libertinus Mono", monospace;
+}
+
+/* Reusable Code */
+
+
+.primary-color {
+  color: #fd6e0a;
+}
+.btn {
+  background-color: #fd6e0a;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Navbar start */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 150px;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-list a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
