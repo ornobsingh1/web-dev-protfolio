@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Libertinus Mono", monospace;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Reusable Code */
@@ -132,6 +132,34 @@
   justify-content: space-between;
   align-items: center;
 }
-.about-item {
-  border: 2px s;
+
+/* what i do section */
+
+.card-contant {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 700px;
+  margin: 50px auto;
+}
+.card-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.card-description {
+  font-size: 13px;
+  color: rgb(101, 101, 101);
+  margin-top: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
